@@ -25,3 +25,29 @@ let arr = [1,2,3,4,5];
  arr.pop();
  console.log(arr);
 ```
+# Array Method "Unshift"
+## Unshift, a unary function, ‘ shifts’ the array to the right and inserts its parameters into the first slots. It then returns the new length of the array
+### For Example ->
+``` js
+ let arr = [3,4,5];
+ arr.unshift(1,2);
+ console.log(arr);
+```
+# Array Method "Shift"
+## The shift() method removes the first element from an array and returns that element.
+### For Example ->
+``` js
+let arr = [1,2,3,4,5];
+ arr.shift();
+ console.log(arr);
+```
+# Array Method To "String"
+## The toString() method is used to convert an array to a string of comma-separated array values.
+### For Example ->
+``` js
+let arr = [1,2,3];
+ console.log(arr.toString());
+```
+# We have many types of Array Method But i said some of them for more information you can go to this link------>
+### https://en.wikipedia.org/wiki/Array_programming
+
